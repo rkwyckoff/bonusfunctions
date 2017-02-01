@@ -5,8 +5,14 @@
 // ----------------------------
 
 function forEach(array, callback){
-    // YOUR CODE HERE
+
+var a = ['a', 'b', 'c'];
+
+a.forEach(function(element) {
+console.log(element);
+});
 }
+
 
 // tests
 // ---
